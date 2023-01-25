@@ -84,7 +84,7 @@ class Uploader:
             )
             description = (
                 Config.VIDEO_DESCRIPTION
-                + "😉Look to the end – and you will smile!😆☜(˚▽˚)☞ #shorts #short #shortvideo #ShortVideos #YoutubeShorts #YoutubeShortVideos"
+                + "\n😉Look to the end – and you will smile!😆☜(˚▽˚)☞ #shorts #short #shortvideo #ShortVideos #YoutubeShorts #YoutubeShortVideos"
             )[:5000]
             if not Config.UPLOAD_MODE:
                 privacyStatus = "private"
