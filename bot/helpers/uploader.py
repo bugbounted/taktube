@@ -31,6 +31,21 @@ class Uploader:
             27: "Education",
             28: "Science & Technology",
             29: "Nonprofits & Activism",
+            30: "Movies",
+            31: "Anime/Animation",
+            32: "Action/Adventure",
+            33: "Classics",
+            34: "Comedy",
+            35: "Documentary",
+            36: "Drama",
+            37: "Family",
+            38: "Foreign",
+            39: "Horror",
+            40: "Sci-Fi/Fantasy",
+            41: "Thriller",
+            42: "Shorts",
+            43: "Shows",
+            44: "Trailers",
         }
 
     async def start(self, progress: callable = None, *args) -> Tuple[bool, str]:
