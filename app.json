@@ -2,7 +2,6 @@
   "name": "taktube",
   "description": "elegram bot for upload video to youtube channel",
   "repository": "https://github.com/bugbounted/taktube",
-  "logo": "https://github.com/bugbounted/taktube/blob/main/ss/logo.png?raw=true",
   "keywords": ["telegram", "youtube", "uploader"],
   "env": {
       "BOT_TOKEN": {
