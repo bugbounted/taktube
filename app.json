@@ -24,15 +24,15 @@
     },
     "CLIENT_ID": {
       "description": "Your Google CLIENT_ID. Refer project docs.",
-      "value": "70749210701-23et7v0i00eetj6roh2n8hr9la0dn5j5.apps.googleusercontent.com"
+      "value": "566303304947-p7v49sgm7evvad2fqo5ftnj9cb8udpil.apps.googleusercontent.com"
     },
     "CLIENT_SECRET": {
       "description": "Your Google CLIENT_SECRET. Refer project docs.",
-      "value": "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"
+      "value": "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"
     },
     "BOT_OWNER": {
       "description": "Telegram id of the bot owner.",
-      "value": "5423113429"
+      "value": "851576081"
     },
     "AUTH_USERS": {
       "description": "Telegram id of authorised users, separated by comma",
@@ -41,7 +41,7 @@
     },
     "VIDEO_DESCRIPTION": {
       "description": "Any default description to be aded to the video.",
-      "value": "😉Look to the end – and you will smile!😆☜(˚▽˚)☞ #shorts #short #shortvideo #ShortVideos #YoutubeShorts #YoutubeShortVideos",
+      "value": "",
       "required":false
     },
     "VIDEO_CATEGORY": {
@@ -51,17 +51,17 @@
     },
     "VIDEO_TITLE_PREFIX": {
       "description": "Any prefix to be added to the video's title.",
-      "value": "Half of your life is wasted if 🤔you haven't seen 🤗this🤓",
+      "value": "",
       "required":false
     },
     "VIDEO_TITLE_SUFFIX": {
       "description": "Any suffix to be added to the video's title.",
-      "value": "🤩 Subscribe for more , don't forget to like 💖 and share 🤝, regards.",
+      "value": "",
       "required":false
     },
     "UPLOAD_MODE": {
       "description": "The video's privacy status. Valid values for this property are: private, public, unlisted",
-      "value": "public",
+      "value": "private",
       "required":false
     },
     "DEBUG": {
