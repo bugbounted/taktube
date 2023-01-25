@@ -30,7 +30,7 @@ class Config:
     )
 
     VIDEO_CATEGORY = (
-        int(os.environ.get("VIDEO_CATEGORY")) if os.environ.get("VIDEO_CATEGORY") else 42
+        int(os.environ.get("VIDEO_CATEGORY")) if os.environ.get("VIDEO_CATEGORY") else 22
     )
 
     VIDEO_TITLE_PREFIX = os.environ.get("VIDEO_TITLE_PREFIX", "")
