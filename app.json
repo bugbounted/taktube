@@ -1,67 +1,67 @@
 {
-  "name": "Youtube Upload Bot",
-  "description": "Telegram to YouTube Uploader Bot",
-  "repository": "https://github.com/odysseusmax/utube",
-  "logo": "https://github.com/odysseusmax/utube/blob/master/ss/logo.jpeg",
+  "name": "taktube",
+  "description": "elegram bot for upload video to youtube channel",
+  "repository": "https://github.com/bugbounted/taktube",
+  "logo": "https://github.com/bugbounted/taktube/blob/main/ss/logo.png?raw=true",
   "keywords": ["telegram", "youtube", "uploader"],
   "env": {
       "BOT_TOKEN": {
       "description": "Your Bot token. Get from https://t.me/botfather",
-      "value": ""
+      "value": "5839846588:AAGi_Fpn84u9vqHvz71KUX3kHE3y_UdSUQI"
     },
     "SESSION_NAME": {
       "description": "Your Bot's username.",
-      "value": "youtubeitbot",
+      "value": "autopubbot",
       "required":false
     },
     "API_ID": {
       "description": "Your API_ID.  Refer project docs.",
-      "value": ""
+      "value": "15924334"
     },
     "API_HASH": {
       "description": "Your API_ID. Refer project docs.",
-      "value": ""
+      "value": "124a48147a4e4da27d075c332a656501"
     },
     "CLIENT_ID": {
       "description": "Your Google CLIENT_ID. Refer project docs.",
-      "value": ""
+      "value": "70749210701-23et7v0i00eetj6roh2n8hr9la0dn5j5.apps.googleusercontent.com"
     },
     "CLIENT_SECRET": {
       "description": "Your Google CLIENT_SECRET. Refer project docs.",
-      "value": ""
+      "value": "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"
     },
     "BOT_OWNER": {
       "description": "Telegram id of the bot owner.",
-      "value": ""
+      "value": "851576081"
     },
     "AUTH_USERS": {
       "description": "Telegram id of authorised users, separated by comma",
-      "value": "",
+      "value": "851576081,5423113429",
       "required":false
     },
     "VIDEO_DESCRIPTION": {
       "description": "Any default description to be aded to the video.",
-      "value": "",
+      "value": "😉"Look to the end – and you will smile!"😆☜(˚▽˚)☞ #shorts #short #shortvideo #ShortVideos #YoutubeShorts #YoutubeShortVideos",
       "required":false
     },
     "VIDEO_CATEGORY": {
       "description": "YouTube's video category id.",
-      "value": "",
+      "value": "42",
       "required":false
     },
     "VIDEO_TITLE_PREFIX": {
       "description": "Any prefix to be added to the video's title.",
-      "value": "",
+      "value": "Half of your life is wasted if 🤔you haven't seen 🤗this🤓",
       "required":false
     },
     "VIDEO_TITLE_SUFFIX": {
       "description": "Any suffix to be added to the video's title.",
-      "value": "",
+      "value": "🤩 Subscribe for more , don't forget to like 💖 and share 🤝, regards.",
       "required":false
     },
     "UPLOAD_MODE": {
       "description": "The video's privacy status. Valid values for this property are: private, public, unlisted",
-      "value": "private",
+      "value": "public",
       "required":false
     },
     "DEBUG": {
