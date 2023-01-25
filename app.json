@@ -2,6 +2,7 @@
   "name": "taktube",
   "description": "elegram bot for upload video to youtube channel",
   "repository": "https://github.com/bugbounted/taktube",
+  "logo": "https://github.com/bugbounted/taktube/blob/main/ss/logo.png?raw=true",
   "keywords": ["telegram", "youtube", "uploader"],
   "env": {
       "BOT_TOKEN": {
@@ -40,7 +41,7 @@
     },
     "VIDEO_DESCRIPTION": {
       "description": "Any default description to be aded to the video.",
-      "value": "😉"Look to the end – and you will smile!"😆☜(˚▽˚)☞ #shorts #short #shortvideo #ShortVideos #YoutubeShorts #YoutubeShortVideos",
+      "value": "😉Look to the end – and you will smile!😆☜(˚▽˚)☞ #shorts #short #shortvideo #ShortVideos #YoutubeShorts #YoutubeShortVideos",
       "required":false
     },
     "VIDEO_CATEGORY": {
