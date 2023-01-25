@@ -19,6 +19,6 @@ async def _start(c: UtubeBot, m: Message):
         text=tr.START_MSG.format(m.from_user.first_name),
         quote=True,
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("Join Project Channel!", url="https://t.me/bishfaall")]]
+            [[InlineKeyboardButton("جهت حمایت از ما در صورت تمایل عضو شوید", url="https://t.me/bishfaall")]]
         ),
     )
