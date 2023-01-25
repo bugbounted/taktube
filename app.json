@@ -11,7 +11,7 @@
     },
     "SESSION_NAME": {
       "description": "Your Bot's username.",
-      "value": "youtubeitbot",
+      "value": "autopubbot",
       "required":false
     },
     "API_ID": {
@@ -32,11 +32,11 @@
     },
     "BOT_OWNER": {
       "description": "Telegram id of the bot owner.",
-      "value": "851576081"
+      "value": "5423113429"
     },
     "AUTH_USERS": {
       "description": "Telegram id of authorised users, separated by comma",
-      "value": "851576081,5423113429",
+      "value": "851576081",
       "required":false
     },
     "VIDEO_DESCRIPTION": {
