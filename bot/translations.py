@@ -1,55 +1,55 @@
 class Messages:
 
     START_MSG = (
-        "Hi there {}.\n\nI'm Youtube Uploader Bot.You can use me to upload any telegram video to youtube "
-        "once you authorise me.You can know more from /help.\n\nThank you."
+        "سلام {}.\n\nمن ربات آپلودکننده یوتیوب هستم. شما می توانید از من برای آپلود هر ویدیوی تلگرام در یوتیوب استفاده کنید "
+         "وقتی به من اجازه دادید. می توانید از /help بیشتر بدانید.\n\nاز شما متشکرم."
     )
 
     HELP_MSG = [
         ".",
-        "Hi there.\n\nFirst things first. You should be aware that youtube processes each and every video uploaded, "
-        "and its AI is amazing that it flags the video for copyrights if it finds copywrited content as soon as its "
-        "uploaded, and you will not be able to publish the video.\n\nRead through all the pages to know how I work.",
-        "**Lets learn how I work.**\n\n**Step 1:** __You authorise me to upload to your youtube channel.More about "
-        "this in comming pages.__\n\n**Step 2:** __You forward any Telegram video to me.__\n\n**Step 3:** __You reply "
-        "__/upload __to the forwarded video file.You can also specify some title in the upload command, but its "
-        "optional though.Title will follow the __`/upload`.__If no title is given, filename will be used as title.__"
-        "\n\n**Step 4:** __I remotely download the file and uploads to your Youtube channel.__\n\n**Step 5:** __I "
-        "send you the Youtube link after upload.__",
-        "**Create your youtube channel**\n\nThere is no point in using me if you dont have a Youtube Channel.So go "
-        "through the given steps to create one.\n\n**Step 1:** __Sign in to YouTube on a computer or using the mobile."
-        "__\n\n**Step 2:** __Try any action that requires a channel, such as uploading a video, posting a comment, "
-        "or creating a playlist.__\n\n**Step 3:** __If you don't yet have a channel, you'll see a prompt to create "
-        "a channel.__\n\n**Step 4:** __Check the details and confirm to create your new channel.__",
-        "**Verify your YouTube account**\n\nYoutube take spam and abuse very seriously. So you are asked to verify "
-        "your Youtube account. Once you've verified your account, you will be able to upload videos longer than 15 "
-        "minutes. If you haven't verified your account every video uploaded which are longer than 15 minutes will be "
-        "removed.\n[Verify your Youtube account here.](http://www.youtube.com/verify)\n\n__Remember to verify your "
-        "project, else your uploads will be kept private.__",
-        "**Now lets authorise.**\n\nYou need to give me the access to upload videos to your Youtube account.For that "
-        "open the given link and allow access and copy the code. Come back here and type `/authorise copied-code` and "
-        "send it.\n\n**Fear not!**\nI'm not a hacker or someone who wants to creep into people's privacy. I respect "
-        "one's privacy. I'm here just to help anyone who wants help. If I was a hacker I won't be sitting here "
-        "writing Telegram Bots.",
+        "سلام.\n\nاول از همه. باید بدانید که یوتیوب تک تک ویدیوهای آپلود شده را پردازش می کند. "
+        "و هوش مصنوعی آن شگفت‌انگیز است که در صورت یافتن محتوای دارای حق نسخه‌برداری به محض اینکه ویدیو را پیدا کرد، آن را برای کپی رایت پرچم‌گذاری می‌کند "
+        "آپلود شده است، و شما نمی توانید ویدیو را منتشر کنید.\n\nتمام صفحات را بخوانید تا بدانید من چگونه کار می کنم. ",
+        "**بیایید یاد بگیریم که چگونه کار می کنم.**\n\n**مرحله 1:** __شما به من اجازه می دهید در کانال یوتیوب خود آپلود کنم. اطلاعات بیشتر درباره "
+        "این در صفحات بعدی.__\n\n**مرحله 2:** _ شما هر ویدیوی تلگرام را برای من فوروارد میکنید.__\n\n**مرحله 3:** _ شما پاسخ میدهید "
+        "__/upload __به فایل ویدئویی ارسال شده. همچنین می توانید عنوانی را در دستور آپلود مشخص کنید، اما "
+        "هر چند اختیاری است. عنوان از __`/upload` پیروی می کند.__اگر عنوانی داده نشود، نام فایل به عنوان عنوان استفاده می شود.__ "
+        "\n\n**مرحله 4:** __من فایل را از راه دور دانلود می کنم و در کانال یوتیوب شما آپلود می کنم.__\n\n**مرحله 5:** __I "
+        "پس از آپلود لینک یوتیوب را برای شما ارسال می کند.__ ",
+        "**کانال یوتیوب خود را ایجاد کنید**\n\nاگر کانال یوتیوب ندارید استفاده از من فایده ای ندارد. پس بروید "
+        "از طریق مراحل داده شده برای ایجاد یکی.\n\n**مرحله 1:** __در رایانه یا با استفاده از تلفن همراه به YouTube وارد شوید."
+        "__\n\n**مرحله 2:** __هر اقدامی که نیاز به کانال دارد را امتحان کنید، مانند آپلود یک ویدیو، ارسال نظر، "
+        "یا ایجاد یک لیست پخش.__\n\n**مرحله 3:** __اگر هنوز کانالی ندارید، یک درخواست برای ایجاد خواهید دید. "
+        "یک کانال.__\n\n**مرحله 4:** __جزئیات را بررسی کنید و برای ایجاد کانال جدید خود تأیید کنید.__",
+        "**حساب YouTube خود را تأیید کنید **\on\Youtube هرزنامه و سوء استفاده را بسیار جدی بگیرید. بنابراین از شما خواسته می شود که تأیید کنید "
+        "حساب یوتیوب شما هنگامی که حساب خود را تأیید کردید، می‌توانید ویدیوهای طولانی‌تر از 15 را آپلود کنید "
+        " دقایق. اگر حساب خود را تأیید نکرده باشید، هر ویدیوی آپلود شده که بیش از 15 دقیقه است تأیید می شود"
+        "حذف شد.\n[حساب YouTube خود را اینجا تأیید کنید.](http://www.youtube.com/verify)\n\n__به خاطر بسپارید "
+        "پروژه، در غیر این صورت آپلودهای شما خصوصی خواهند ماند.__",
+        "**حالا اجازه دهید\شما باید به من اجازه دسترسی آپلود ویدیوها به حساب کاربری یوتیوب خود را بدهید. برای این کار "
+        "لینک داده شده را باز کنید و اجازه دسترسی بدهید و کد را کپی کنید. به اینجا برگردید و «/authorise copied-code» را تایپ کنید و "
+        "آن را بفرست.\n\n**نترس!**\nمن یک هکر یا کسی نیستم که بخواهم به حریم خصوصی مردم نفوذ کنم. من احترام "
+        "حریم شخصی من اینجا هستم فقط برای کمک به هر کسی که کمک می خواهد. اگر من هکر بودم اینجا نمی نشینم "
+        "نوشتن ربات های تلگرام.",
     ]
 
-    NOT_A_REPLY_MSG = "Please reply to some video file."
+    NOT_A_REPLY_MSG = "لطفا به چند فایل ویدیویی پاسخ دهید."
 
-    NOT_A_MEDIA_MSG = "No media file found. " + NOT_A_REPLY_MSG
+    NOT_A_MEDIA_MSG = "هیچ فایل رسانه ای یافت نشد." + NOT_A_REPLY_MSG
 
-    NOT_A_VALID_MEDIA_MSG = "This is not a valid media"
+    NOT_A_VALID_MEDIA_MSG = "این یک رسانه معتبر نیست"
 
-    DAILY_QOUTA_REACHED = "Looks like you are trying to upload more than 6 videos today! By default youtube only "
-    "allows about 6 uploads daily, so this request might fail!!"
+    DAILY_QOUTA_REACHED = "به نظر می‌رسد امروز می‌خواهید بیش از ۶ ویدیو آپلود کنید! به طور پیش فرض فقط یوتیوب "
+     "حدود 6 بار در روز اجازه می دهد، بنابراین این درخواست ممکن است شکست بخورد!!"
 
-    PROCESSING = "Processing....."
+    PROCESSING = "در حال پردازش....."
 
-    NOT_AUTHENTICATED_MSG = "You have not authenticated me to upload video to any account. see /help to authenticate"
+    NOT_AUTHENTICATED_MSG = "شما به من احراز هویت برای آپلود ویدیو در هیچ حسابی نرسیده اید. برای احراز هویت / help را ببینید"
 
-    NO_AUTH_CODE_MSG = "There is no code. Please provide some code"
+    NO_AUTH_CODE_MSG = "هیچ کدی وجود ندارد. لطفا یک کد ارائه دهید"
 
-    AUTH_SUCCESS_MSG = "Congrats, you have successfully authenticated me to upload to Youtube.\nHappy uploading!"
+    AUTH_SUCCESS_MSG = "تبریک می گویم، شما با موفقیت مرا برای آپلود در یوتیوب تأیید کردید.\nآپلود مبارک!"
 
-    AUTH_FAILED_MSG = "Authentication failed\nDetails:{}"
+    AUTH_FAILED_MSG = "احراز هویت انجام نشد\nجزئیات:{}"
 
-    AUTH_DATA_SAVE_SUCCESS = "Successfully saved the given auth data!"
+    AUTH_DATA_SAVE_SUCCESS = "داده های احراز هویت داده شده با موفقیت ذخیره شد!"
