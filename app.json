@@ -46,7 +46,7 @@
     },
     "VIDEO_CATEGORY": {
       "description": "YouTube's video category id.",
-      "value": "42",
+      "value": "22",
       "required":false
     },
     "VIDEO_TITLE_PREFIX": {
