@@ -1,10 +1,20 @@
-FROM python:3.9.16
+FROM python:3.9.16 as compiler
+ENV PYTHONUNBUFFERED 1
 
-WORKDIR /usr/src/app
+WORKDIR /app/
 
-COPY requirements.txt ./
-RUN pip install --no-cache-dir -r requirements.txt
+RUN python -m venv /opt/venv
+# Enable venv
+ENV PATH="/opt/venv/bin:$PATH"
 
-COPY . .
+COPY ./requirements.txt /app/requirements.txt
+RUN pip install -Ur requirements.txt
 
-CMD [ "python", "bot/__main__.py" ]
+FROM python:3.9.16 as runner
+WORKDIR /app/
+COPY --from=compiler /opt/venv /opt/venv
+
+# Enable venv
+ENV PATH="/opt/venv/bin:$PATH"
+COPY . /app/
+CMD ["python", "bot/__main__.py", ]
